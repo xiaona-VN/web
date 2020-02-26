@@ -1,0 +1,415 @@
+*{
+    margin:0 auto;
+    padding:0;
+    color:#fff;
+    font-family: "微软雅黑";
+    
+}
+a{
+    text-decoration:none;
+}
+.header{
+    float:left;
+    width:100%;
+    height:60px;
+}
+.nav{
+    margin:0 auto;
+    width:100%;
+    height:60px;
+    background-color:rgba(148, 147, 147,0.2);
+    position: relative;
+    z-index: 2;
+    font-weight:bold;
+    cursor: pointer;
+    min-width: 1200px;
+
+}
+.nav-logo{
+    float:left;
+    width:200px;
+    height:60px;
+    line-height: 40px;
+    font-size:20px;
+    background:url(../img/logo.png) no-repeat;
+    position: relative;
+    top:10px;
+    left:10px;
+    text-align: center;
+    
+
+}
+.nav-list{
+    text-align: center;
+    float:right;
+    width:600px;
+    height:60px;
+    line-height:60px;
+    padding-right:30px;
+    position: absolute;
+    top:10px;
+    right:30px;
+}
+.nav-list-01,
+.nav-list-02,
+.nav-list-03,
+.nav-list-04,
+.nav-list-05,
+.nav-list-06{
+    display: block;
+    width:100px;
+    line-height:40px;
+    float:left;
+
+    
+}
+.nav-list-06{
+    width:100px;
+    height:40px;
+    border-radius:5px;
+    background-color:red;
+    font-weight:bold;
+}
+.screen{
+    margin:0 auto;
+    width:100%;
+    height:3500px;
+}
+.screen-01{
+   margin:0 auto;
+    width:100%;
+    height:640px;
+    background:url(../img/sc1.jpg) no-repeat ;
+    background-size:100%;
+}
+.screen-01-text{
+    text-align:center;
+    padding-top:200px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.screen-01-sub{
+    text-align: center;
+    padding-top:30px;
+}
+.screen-02{
+    width:100%;
+    height:640px;
+    background:url(../img/sc2.png) no-repeat 50% 100%;
+    position: relative;
+}
+.screen-02-1{
+    width:280px;
+    height:380px;
+    background:url(../img/sc2-1.png) no-repeat;
+    float:left;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    margin-left:-140px;
+    z-index: 2;
+}
+.screen-02-02{
+   width: 300px;;
+    height:200px;
+    background:url(../img/sc2-2.png) no-repeat;
+    position: absolute;
+    top:330px;
+    left:48%;
+}
+.screen-02-text{
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    font-size:50px;
+    margin-top:80px;
+    margin-bottom:60px;
+    line-height: 40px;
+
+}
+.screen-02-line{
+    width:50px;
+    height:4px;
+    background-color:red;
+    position:absolute;
+    left:50%;
+    margin-left:-25px;
+    top:80px;
+}
+.screen-02-sub{
+    text-align:center;
+    margin-top:30px;
+    color:black;
+    font-size:16px;
+} 
+.screen-03{
+    width:100%;
+    height:640px;
+    background-color:#2b333b;
+    position: relative;
+   
+}
+.screen-03-1{
+    width:580px;
+    height:640px;
+    background:url(../img/sc3.png) no-repeat;
+    background-size:100%;
+    position: absolute;
+    left:5%;
+}
+.screen-03-text{
+    text-align: center;
+    color:#fff;
+    font-weight: bold;
+    font-size:40px;
+    line-height: 40px;
+    position: absolute;
+    left:50%;
+    top:40%;
+}
+.screen-03-sub{
+    text-align:left;
+    margin-top:30px;
+    color:#fff;
+    font-size:16px;
+    position: absolute;
+    left:50%;
+    top:50%;
+} 
+.screen-03-line{
+    width:50px;
+    height:4px;
+    background:red;
+    position: absolute;
+    left:50%;
+    top:50%;
+}
+.screen-03-know-01{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    border:solid 5px #1f5975;
+    text-align: center;
+    line-height: 80px;
+    position:absolute;
+    bottom:50px;
+    left:50%;
+    font-size:18px;
+    font-weight:bold;
+    color:#2294ff;
+}
+.screen-03-know-02{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    border:solid 5px #424d76;
+    text-align: center;
+    line-height: 80px;
+    position:absolute;
+    bottom:50px;
+    left:57%;
+    font-size:18px;
+    font-weight:bold;
+    color:#7872b4;
+}
+.screen-03-know-03{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    border:solid 5px #6b4146;
+    text-align: center;
+    line-height: 80px;
+    position:absolute;
+    bottom:50px;
+    left:64%;
+    font-size:18px;
+    font-weight:bold;
+    color:#ff584c;
+}
+.screen-03-know-04{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    border:solid 5px #29535f;
+    text-align: center;
+    line-height: 80px;
+    position:absolute;
+    bottom:50px;
+    left:71%;
+    font-size:18px;
+    font-weight:bold;
+    color:#249d85;
+}
+.screen-03-know-05{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    border:solid 5px #3e4e40;
+    text-align: center;
+    line-height: 80px;
+    position:absolute;
+    bottom:50px;
+    left:78%;
+    font-size:18px;
+    font-weight:bold;
+    color:#838d3e;
+}
+.screen-04{
+    width:100%;
+    height:640px;
+    position:relative;
+}
+.screen-04-line{
+    width:50px;
+    height:4px;
+    background-color:red;
+    position: absolute;
+    top:170px;
+    left:50%;
+    margin-left:-25px;
+}
+.screen-04-text{
+    width:440px;
+    color:#000;
+    font-size:40px;
+    line-height:50px;
+    font-weight:bold;
+   text-align:center;
+   padding-top:100px;
+}
+.screen-04-sub{
+    text-align:center;
+    margin-top:50px;
+    color:black;
+}
+.screen-04-box{
+    margin: 0 auto;
+    width:1200px;
+    height:300px;
+    position: relative;
+}
+.screen-04-box-01{
+    width:200px;
+    height:200px;
+    background: url(../img/sc4-1.png) no-repeat;
+    position: absolute;
+    left:130px;
+    top:100px;
+}
+.screen-04-box-text01{
+    color:#000;
+    position: absolute;
+    top:200px;
+    left:80px;
+}
+.screen-04-box-02{
+    width:200px;
+    height:200px;
+    background: url(../img/sc4-2.png) no-repeat;
+    position: absolute;
+    left:430px;
+    top:100px;
+}
+.screen-04-box-text02{
+    color:#000;
+    position: absolute;
+    top:200px;
+    left:410px;
+}
+.screen-04-box-03{
+    width:200px;
+    height:200px;
+    background: url(../img/page4_3.png) no-repeat;
+    position: absolute;
+    left:700px;
+    top:100px;
+}
+.screen-04-box-text03{
+    color:#000;
+    position: absolute;
+    top:200px;
+    left:680px;
+}
+.screen-04-box-04{
+    width:200px;
+    height:200px;
+    background: url(../img/sc4-4.png) no-repeat;
+    position: absolute;
+    left:970px;
+    top:100px;
+}
+.screen-04-box-text04{
+    color:#000;
+    position: absolute;
+    top:200px;
+    left:950px;
+}
+.screen-05{
+    width:100%;
+    height:640px;
+    background:url(../img/sc5.jpg) no-repeat;
+    background-size:100%;
+    position:relative;
+}
+.screen-05-01{
+    width:200px;
+    height:200px;
+    background: url(../img/sc5-1.png) no-repeat;
+    position: absolute;
+    top:100px;
+    left:50%;
+    margin-left:-100px;
+}
+.screen-05-text{
+    font-size:50px;
+    text-align:center;
+    padding-top:360px;
+}
+.screen-05-line{
+    width:50px;
+    height:4px;
+    background: #fff;
+    position:absolute;
+    top:450px;
+    left:50%;
+    margin-left:-25px;
+}
+.screen-05-sub{
+    text-align: center;
+    padding-top:50px;
+}
+.continue-tex{
+    width:100%;
+    height:200px;
+    position: relative;
+}
+.continue-tex1{
+    display: block;
+    width:400px;
+    height:80px;
+    border:1px solid #707070;
+    border-radius:10px;
+    color:#000;
+    font-size:30px;
+    text-align:center;
+    line-height:80px;
+    position: absolute;
+    top:70px;
+    left:50%;
+    margin-left:-200px;
+}
+.footer{
+    width:100%;
+    height:100px;
+    background: #000;
+}
+.footer-sub{
+    color:#c8cdc4;
+    text-align:center;
+    padding-top:10px;
+}
+.footer-lis{
+    text-align: center;
+    padding-left:40px;
+    padding-top:30px;
+}
